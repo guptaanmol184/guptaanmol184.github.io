@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicons/atom.jpeg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://guptaanmol184.github.io # the base hostname & protocol for your site
