@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello world!
-date: 2026-09-28 12:00:00
+date: 2026-09-27 00:00:00
 description: Hello wrold!
 tags: hello-world!
 categories: sample-posts
