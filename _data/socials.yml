@@ -10,8 +10,13 @@ linkedin_username: guptaanmolcontact
 github_username: guptaanmol184
 # x_username: guptaanmol184 # X / Twitter - uncomment to show the icon again
 
-# cal.com has no built-in key in the plugin, so it uses the custom_social shape:
-# any key with a `logo` (an icon class), a `url`, and a `title`.
+# cal.com and Goodreads have no built-in key in the plugin, so they use the
+# custom_social shape: any key with a `logo` (an icon class), a `url`, and a `title`.
+goodreads:
+  title: Goodreads
+  url: https://www.goodreads.com/guptaanmol184
+  logo: fa-brands fa-goodreads
+
 cal:
   title: Book a call
   url: https://cal.com/gupta-anmol-cal

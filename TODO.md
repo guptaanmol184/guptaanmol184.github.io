@@ -6,3 +6,4 @@
 - [ ] add goodreads
 - [ ] add people (kobe, richard feynman etc.)
 - [ ] Polish and clarify the website
+- [ ] Update the colour scheme of the website (choose my own colours)
