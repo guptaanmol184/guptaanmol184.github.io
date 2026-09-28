@@ -1,14 +1,21 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-email: you@example.com # your email address
-inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+# This file contains the social media links and usernames of the author.
+# The socials are displayed in the order they are defined here.
+# The exact key names are defined by the jekyll-socials plugin
+# (https://github.com/george-gca/jekyll-socials) — a key that does not exist
+# there will not render an icon.
+# For more information, please refer to the documentation of jekyll-socials plugin.
+
+email: gupta.anmol.contact@gmail.com
+linkedin_username: guptaanmolcontact
+github_username: guptaanmol184
+# x_username: guptaanmol184 # X / Twitter - uncomment to show the icon again
+
+# cal.com has no built-in key in the plugin, so it uses the custom_social shape:
+# any key with a `logo` (an icon class), a `url`, and a `title`.
+cal:
+  title: Book a call
+  url: https://cal.com/gupta-anmol-cal
+  logo: fa-solid fa-calendar-days
+
+# rss_icon: true # uncomment to show the blog RSS icon (links to /feed.xml)
+# cv_pdf: /assets/pdf/your_cv.pdf # uncomment once a real CV is added to assets/pdf/

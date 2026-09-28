@@ -7,7 +7,7 @@ first_name: Anmol
 middle_name:
 last_name: Gupta
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Email and LinkedIn are the surest way to reach me. 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -205,6 +205,11 @@ collections:
     defaults:
       layout: post
     output: true
+  notes:
+    defaults:
+      layout: post
+    output: true
+    permalink: /notes/:year/:title/
   projects:
     output: true
   teachings:
@@ -347,6 +352,12 @@ jekyll-archives:
       categories: "/blog/:type/:name/"
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  notes:
+    enabled: [year, tags, categories] # notes archives, namespaced under /notes/ so they never mix with blog or book tags
+    permalinks:
+      year: "/notes/:year/"
+      tags: "/notes/:type/:name/"
+      categories: "/notes/:type/:name/"
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog

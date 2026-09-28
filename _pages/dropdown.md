@@ -10,6 +10,7 @@ children:
   - title: divider
   - title: people
     permalink: /people/
-  # - title: blog
-  #   permalink: /blog/
+  - title: divider
+  - title: notes
+    permalink: /notes/
 ---
