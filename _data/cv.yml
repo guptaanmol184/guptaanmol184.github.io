@@ -1,189 +1,123 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Anmol Gupta
+  headline: Software Engineer
+  email: gupta.anmol.contact@gmail.com
+  phone: "+91 8851-437072"
+  location: Hyderabad, India
+  website: https://github.com/guptaanmol184
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: guptaanmolcontact
+    - network: GitHub
+      username: guptaanmol184
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+    Summary:
+      - bullet: Software Engineer with 6+ years of experience specializing in scalable RAG architectures, high-throughput cloud observability, and system performance optimization.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Microsoft R&D Pvt Ltd.
+        position: Software Engineer 2 (L62)
+        location: Hyderabad, Telangana
+        start_date: 2025-11
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - Contributed to the Microsoft Fabric Service Telemetry Infrastructure team, developing scalable data and monitoring solutions.
+          - Owned the 4-month deployment of Kusto Alerting Service to the French Sovereign Cloud; automated manual deployment procedures and authored standard runbooks, cutting future cloud onboarding time by 50%.
+          - Drove performance optimizations across 29 Azure Data Explorer (ADX) clusters; partnered with client teams for optimisations, cutting overall CPU consumption by 12% and memory consumption by 7%.
+          - Executed zero-downtime migration of 43 global clusters from legacy IFx to an OpenTelemetry SDK in 2 months, designing a dual-emission feature flag strategy and load-testing pipeline that guaranteed 100% data retention across 300M daily telemetry records.
+          - "Tech stack: C# (.NET), Azure, Azure Data Explorer (ADX), OpenTelemetry, Geneva (Microsoft internal observability platform, similar to Datadog/Prometheus/Grafana)."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Clari Software Pvt. Ltd.
+        position: Software Engineer 2
+        location: Bengaluru, Karnataka
+        start_date: 2023-01
+        end_date: 2025-10
         highlights:
-          - Description 1.
-          - Description 2.
+          - Designed and built an extensible Retrieval-Augmented Generation (RAG) pipeline as a foundational platform powering multiple AI features at Clari, including AskClari; enabled modular integration and improved maintainability.
+          - As a lead engineer, designed and developed the AskClari feature to enable quick, accurate answers to deal-related interactions, generating embeddings and vector store retrieval, improving latency by 65%.
+          - Developed and implemented the Account Summaries feature, providing summaries and actions from all account activity, integrating with OpenAI, generating 25,000+ summaries and improving latency by 47%.
+          - Mentored junior engineers on summarization features to independently investigate and debug system issues; partnered closely with Product Managers to align technical solutions with product requirements.
+          - Developed a shared Python package for HMAC-based request signing and verification to standardize secure inter-service communication, and deployed it to the company artifactory for cross-project integration.
+          - Relieved deployment bottlenecks for recorder systems by implementing a user-level, customer-level A/B testing framework, improving deployment velocity by 3x and leading to enhanced system reliability.
+          - Set up the monitoring stack for the Account Summaries backend using Prometheus and Grafana; configured metrics, dashboards, alerts, and log exports to AWS CloudWatch, improving developer efficiency in debugging and system monitoring.
+          - "Tech stack: Python, C#, Java, AWS, Ray, Kubernetes, MongoDB, Prometheus, Grafana."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Trimble, Inc
+        position: Software Engineer
+        location: Chennai, Tamil Nadu
+        start_date: 2020-07
+        end_date: 2023-01
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Automated a time-intensive 3D scanning workflow for construction sites by developing a Windows application that enabled autonomous scanning via Boston Dynamics Spot and Trimble X7. Reduced manual effort and downtime by converting a 20-minute-per-point process into a one-time route setup with autonomous execution.
+          - Developed and released a C# SDK for Boston Dynamics Spot as a NuGet package, streamlining .NET integrations and accelerating developer workflows.
+          - Built a PoC integrating Azure Communication Services into Trimble Connect, enabling real-time video and chat to enhance on-site collaboration.
+          - Delivered live demos to major stakeholders like L&T, driving interest and adoption of autonomous scanning solutions in the Indian construction sector.
+          - "Tech stack: C#, .NET, WPF, gRPC, ReactJS, Azure."
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    Education:
+      - institution: Indian Institute of Information Technology Design and Manufacturing, Kancheepuram
+        location: Chennai, Tamil Nadu
+        area: Computer Engineering
+        degree: B.Tech + M.Tech (Dual Degree)
+        start_date: 2015-07
+        end_date: 2020-06
+        highlights:
+          - "CGPA: 9.33/10"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    Technical Skills:
+      - label: Languages
+        details: Python, C#, Java, Bash, SQL
+      - label: Backend
+        details: Spring Java, FastAPI, gRPC
+      - label: Frontend
+        details: Android, React.JS, WPF
+      - label: Databases
+        details: MongoDB, PostgreSQL, MySQL
+      - label: Cloud & DevOps
+        details: "AWS (S3, SQS, ECR, EKS), Azure (CosmosDB, Functions, Azure Communication Services), Docker, Kubernetes, Ray (Python), Terraform"
+      - label: Observability
+        details: Prometheus, Grafana, AWS CloudWatch
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Personal Cloud Infrastructure
+        summary: Raspberry Pi, Docker, Kubernetes
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Designed and deployed a personal cloud infrastructure using open-source services like Pi-hole and Jellyfin on a Raspberry Pi.
+          - Migrated the infrastructure to a DigitalOcean VPS, utilizing Docker containers for easier management.
+          - Transitioned to a Kubernetes cluster, gaining hands-on experience with cloud-native technologies and improving deployment and cluster management skills.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: E-Commerce Platform Backend
+        summary: Spring Boot, PostgreSQL, Elasticsearch
+        highlights:
+          - Built a backend for an e-commerce platform using Spring Boot and PostgreSQL, adopting microservices to improve modularity and maintainability.
+          - Implemented a user-friendly admin interface to enable quick and efficient updates to the product catalog, enhancing site management.
+          - Integrated Elasticsearch to enable fast fuzzy search across the product catalog, significantly improving search accuracy and user experience.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Virtual Collaboration Platform
+        summary: Photon PUN, Unity, OpenCV, C#
+        highlights:
+          - Transformed 2D sketches into interactive 3D virtual spaces using edge detection and extrusion algorithms in OpenCV, enabling customized and immersive environments.
+          - Implemented real-time multiplayer interaction using Photon PUN, enabling collaboration within shared virtual spaces.
+          - Integrated live webcam video feeds to project onto virtual avatars, enhancing user engagement and personalization within the platform.
+
+    Awards & Achievements:
+      - label: Grand Prize, 9th Annual Trimble Global Hackathon
+        details: Trimble, Inc. Competing among 1200+ participants and 240+ teams.
+      - label: Runner-Up, 9th Annual Trimble Global Hackathon
+        details: Trimble, Inc. Competing among 1200+ participants and 240+ teams.
+      - label: GATE CS 2019
+        details: All India Rank 3114.
+      - label: Data Science using Python Workshop
+        details: Organized and served as speaker and teaching assistant, with over 70 participants.
+
+    Interests & Hobbies:
+      - label: Reading
+        details: Books, Engineering Blogs
+      - label: Physical & Mental Improvement
+        details: ""
+      - label: Sports
+        details: Basketball, Badminton
+      - label: Sketching
+        details: ""
